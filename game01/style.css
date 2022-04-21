@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#game-info {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+table td {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border: 1px solid #000;
+}
